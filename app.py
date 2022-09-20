@@ -10,7 +10,7 @@ import requests
 
 
 similarity  = pkl.load(open('sim.pkl','rb'))
-movies = pd.read_csv('filtered_movies.csv')
+movies = pd.read_csv('https://raw.githubusercontent.com/vishalkrishna90/MOVIE-RECOMMENDER-SYSTEM/main/filtered_movies.csv')
 
 
 def fetch_postor(moive_id):
