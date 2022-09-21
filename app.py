@@ -1,5 +1,3 @@
-from turtle import pos
-from altair.vegalite.v4.schema.channels import Column
 import streamlit as st
 import pandas as pd
 import numpy as np
