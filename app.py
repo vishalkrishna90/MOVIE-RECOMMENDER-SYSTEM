@@ -30,7 +30,8 @@ def recommend_movie(movie):
     return rec_movie,rec_mo_pos
 
 st.title('MOVIE RECOMMENDER SYSTEM')
-datas = st.selectbox('Select Movies:', movies['title'].values)
+st.image('mrs.jpeg')
+datas = st.selectbox('SELECT MOVIES:', movies['title'].values)
 
 btn = st.button('Recommend')
 
